@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       {data.map((elem, index) => (
-        <div key={index} className="px-3 py-4 bg-zinc-300 w-fit rounded-md mt-3">
+        <div key={index} className="px-4 py-4 bg-zinc-300 w-fit rounded-md mt-3">
           {elem}
         </div>
       ))}
